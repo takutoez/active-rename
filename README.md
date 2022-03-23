@@ -1,6 +1,7 @@
 # Active rename – Atom package
 
 [![Version](https://user-images.githubusercontent.com/7994764/159662476-53d9e246-0689-4804-af7f-8458cc0e5da2.svg)](https://atom.io/packages/active-rename)
+
 Suggests you rename identifiers on each line and all, when you edited a line.
 
 ![GIF Animation](https://user-images.githubusercontent.com/7994764/159637058-d0c6b23e-4987-4913-b143-ee9f3748ef85.gif)
