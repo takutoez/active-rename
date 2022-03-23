@@ -1,7 +1,7 @@
 {
   "name": "active-rename",
   "main": "./lib/main",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Suggests you rename identifiers on each line and all, when you edited a line.",
   "keywords": [],
   "repository": "https://github.com/takutoez/active-rename",
