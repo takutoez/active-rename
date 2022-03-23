@@ -1,0 +1,16 @@
+{
+  "name": "active-rename",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Suggests you rename identifiers on each line and all, when you edited a line.",
+  "keywords": [],
+  "repository": "https://github.com/takutoez/active-rename",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "escape-string-regexp": "^4.0.0",
+    "lex-bnf": "https://github.com/takutoez/lex-bnf"
+  }
+}

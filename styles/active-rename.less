@@ -1,0 +1,68 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+@glow-color: #FFFFDC;
+@glow-color2: #FF9600;
+
+atom-overlay.active-rename {
+  z-index: 3 !important;
+  pointer-events: none;
+
+  &>div {
+    position: relative;
+    top: -1em;
+    left: 0.5em;
+    line-height: 1em;
+    font-size: 1.5em;
+    pointer-events: auto;
+    cursor: default;
+    color: @text-color;
+
+    * {
+      display: inline-block;
+      padding: 0 0.25em;
+      &:hover {
+        color: @glow-color !important;
+        text-shadow: 0 0 4px @glow-color2 !important;
+      }
+    }
+  }
+}
+
+.rename-button {
+  transform: scaleX(-1);
+}
+
+.tooltip {
+  &.active-rename {
+    filter: drop-shadow(0 0 10px rgba(0,0,0,0.6));
+
+    &.right {
+      margin-left:0;
+      .tooltip-arrow {
+        border-right-color: @background-color-selected;
+      }
+    }
+
+    &.left {
+      margin-right:0;
+      .tooltip-arrow {
+        border-left-color: @background-color-selected;
+      }
+    }
+
+    pre {
+      color: @text-color-selected;
+      font-weight: bold;
+      background-color: @background-color-selected;
+    }
+
+    .tooltip-inner {
+      padding: 0.25em 0.5em;
+      background-color: @background-color-selected;
+    }
+  }
+}
